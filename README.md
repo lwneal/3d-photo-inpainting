@@ -1,5 +1,18 @@
 # [CVPR 2020] 3D Photography using Context-aware Layered Depth Inpainting
 
+
+***Updated for Ubuntu 22.04, Python 3.10, PyTorch 1.13***
+
+```bash
+git clone ...
+cd 3d-photo-inpainting
+
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python main.py --config argument.yaml
+```
+
 [![Open 3DPhotoInpainting in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)
 
 ### [[Paper](https://arxiv.org/abs/2004.04727)] [[Project Website](https://shihmengli.github.io/3D-Photo-Inpainting/)] [[Google Colab](https://colab.research.google.com/drive/1706ToQrkIZshRSJSHvZ1RuCiM__YX3Bz)]
